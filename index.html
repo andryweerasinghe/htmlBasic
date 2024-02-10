@@ -333,7 +333,8 @@ hi
                 <td>2</td>
                 <td>Dulara</td>
                 <td>Internet Technologies</td>
-                <td>dulara123@gmail.com</td>
+                <!--colspan is used to merge 2 or more columns to a single data-->
+                <td colspan="2">dulara123@gmail.com</td>
             </tr>
             <tr>
                 <td>3</td>
@@ -341,6 +342,35 @@ hi
                 <td>Internet Technologies</td>
                 <td>jayawardane@gmail.com</td>
                 <td>thushan123@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dillow</td>
+                <td>Hibernate</td>
+                <td>madushanka@gmail.com</td>
+                <td rowspan="2">dillow123@gmail.com</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Gimshan</td>
+                <td>Hibernate</td>
+                <td>gimshan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Mahinda</td>
+                <td>Hibernate</td>
+                <td colspan="2" rowspan="3">mahinda@gmail.com</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Ranil</td>
+                <td>Networking</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Cyril</td>
+                <td>Networking</td>
             </tr>
         </tbody>
         <!--table footer-->
@@ -353,7 +383,67 @@ hi
         </tfoot>
     </table>
 
+    <!--Block-level content wrapping element-->
+    <div>
+        Hi
+    </div>
+    <div>
+        Hello
+    </div>
 
+    <!--Inline level content wrapping element-->
+    <span>Welcome</span>
+    <span>To</span>
+    <span>HTML</span>
+
+    <p>Hello students welcome to IJSE-Institute of Software Engineering <br> Let's learn Internet Technologies</p>
+
+    <hr>
+
+    <!--Forms-->
+    <form>
+        <!--Text Input-->
+        <input type="text" placeholder="Enter your name" value="Naveen">
+        <br><br>
+        <!--Color Picker-->
+        <input type="color" value="#436850">
+        <br><br>
+        <!--button (These types of buttons aren't used now)-->
+        <input type="button" value="Click">
+        <br><br>
+        <!--checkbox-->
+        <input type="checkbox">
+        <input type="checkbox" checked>
+        <br><br>
+        <!--radio button-->
+        <input type="radio">
+        <input type="radio" checked>
+        <br><br>
+        <!--date picker-->
+        <input type="date">
+        <input type="date" value="2024-02-01">
+        <input type="date" value="2024-02-01" max="2024-02-10" min="2024-02-05">
+        <br><br>
+        <!--time picker-->
+        <input type="time">
+        <input type="time" value="10:30">
+        <input type="time" value="22:30">
+        <br><br>
+        <!--date-time picker-->
+        <input type="datetime-local">
+        <input type="datetime-local" value="2024-02-01T13:30">
+        <br><br>
+        <!--email input-->
+        <input type="text" placeholder="Enter your name">
+        <input type="email" value="andryweerasinghe@gmail.com" placeholder="Enter your email">
+        <br><br>
+        <!--URL input-->
+        <input type="url" placeholder="Enter website URL">
+        <input type="url" value="https://ijse.lk" placeholder="Enter website URL">
+        <br><br>
+        <!--telephone number input-->
+        <input type="tel" placeholder="07XXXXXXXX">
+    </form>
 
 </body>
 </html>
